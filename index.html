@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/reset.css" />
   </head>
   <body>
+    <div class="menu--close"></div>
     <header class="header">
       <div class="container">
         <div class="header__inner">
@@ -29,6 +30,11 @@
               <span></span>
             </button>
             <ul class="menu__list">
+              <li class="menu__close">
+                <button class="menu__close-btn">
+                  <img src="./images/close.svg" />
+                </button>
+              </li>
               <li class="menu__item">
                 <a href="#" class="menu__link">Black</a>
               </li>
@@ -43,6 +49,38 @@
               </li>
               <li class="menu__item">
                 <a href="#" class="menu__link">Pu-erh</a>
+              </li>
+              <li class="mobile-nav">
+                <ul class="mobile-menu">
+                  <li class="mobile-menu__item">
+                    <a href="#" class="mobile__menu-link">Contact us</a>
+                  </li>
+                  <li class="mobile-menu__item">
+                    <a href="#" class="mobile__menu-link">Our blog</a>
+                  </li>
+                  <li class="mobile-menu__item">
+                    <a href="#" class="mobile__menu-link"
+                      >Shipping and delivery</a
+                    >
+                  </li>
+                </ul>
+                <ul class="mobile-actions">
+                  <li class="mobile-actions__item">
+                    <a href="#" class="mobile-actions__link"
+                      ><img src="images/cart.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="mobile-actions__item">
+                    <a href="#" class="mobile-actions__link"
+                      ><img src="images/user.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="mobile-actions__item">
+                    <a href="#" class="mobile-actions__link"
+                      ><img src="images/search.svg" alt=""
+                    /></a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </nav>
@@ -94,21 +132,82 @@
           our loved ones."
         </p>
       </blockquote>
-      <div class="explore-our-collections">
-        <h1>Explore our Collections</h1>
-        <container>
-          <img src="./images/Green.png" alt="Black" />
-          <button>Black</button>
-          <img src="./images/Green.png" alt="Green" />
-          <button>Green</button>
-          <img src="./images/White.png" alt="White" />
-          <button>White</button>
-          <img src="./images/Oolong.png" alt="Oolong" />
-          <button>Oolong</button>
-          <img src="./images/Pu-erh.png" alt="Pu-erh" />
-          <button>Pu-erh</button>
-        </container>
-      </div>
+      <section class="assortment">
+        <div class="container">
+          <h2 class="title assortment__title">Explore our Collections</h2>
+          <ul class="assortment__list">
+            <li class="assortment__item">
+              <img src="images/white.png" alt="" class="assortment__img" />
+              <p class="assortment__name">Black</p>
+            </li>
+
+            <li class="assortment__item">
+              <img src="images/green.png" alt="" class="assortment__img" />
+              <p class="assortment__name">Green</p>
+            </li>
+            <li class="assortment__item">
+              <img src="images/white.png" alt="" class="assortment__img" />
+              <p class="assortment__name">White</p>
+            </li>
+            <li class="assortment__item">
+              <img src="images/Oolong.png" alt="" class="assortment__img" />
+              <p class="assortment__name">Oolong</p>
+            </li>
+            <li class="assortment__item">
+              <img src="images/Pu-erh.png" alt="" class="assortment__img" />
+              <p class="assortment__name">Pu-erh</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="reviews">
+        <h2 class="title">What our clients say</h2>
+        <div class="container">
+          <ul class="reviews__list">
+            <li class="reviews__item">
+              <blockquote>
+                <p class="reviews__text">
+                  "As a tea enthusiast, I have tried teas from all over the
+                  world, but this tea store truly stands out. Their teas are of
+                  the highest quality and the variety is impressive. This is
+                  definitely a tea store that every tea lover should visit."
+                </p>
+                <cite class="reviews__name">Alice</cite>
+              </blockquote>
+            </li>
+            <li class="reviews__item">
+              <blockquote>
+                <p class="reviews__text">
+                  "This tea store is my go-to for all my tea needs. Their
+                  selection is unbeatable and the quality of their teas is
+                  exceptional."
+                </p>
+                <cite class="reviews__name">Mad-Hatter</cite>
+              </blockquote>
+            </li>
+            <li class="reviews__item">
+              <blockquote>
+                <p class="reviews__text">
+                  "If you're a tea lover, you must visit this tea store. The
+                  selection is vast and the quality is outstanding. I guarantee
+                  you won't be disappointed." Dormouse
+                </p>
+                <cite class="reviews__name">Dormouse</cite>
+              </blockquote>
+            </li>
+            <li class="reviews__item">
+              <blockquote>
+                <p class="reviews__text">
+                  "I am not a big tea drinker, but this tea store has converted
+                  me. I highly recommend this tea store to anyone looking for a
+                  high-quality tea experience."
+                </p>
+                <cite class="reviews__name">March Hare</cite>
+              </blockquote>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <script src="./js/main.js"></script>
   </body>
